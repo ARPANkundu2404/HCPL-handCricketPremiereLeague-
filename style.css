@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(26, 45, 216);
+    text-align: center; 
+}
+
+.header{
+    background-color: rgb(225, 125, 26);
+    color: #fff;
+    text-align: center;
+    height: 5rem;
+}
+
+.choices{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 20vh;
+    gap: 1rem;
+}
+
+.choice{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+    border-radius: 30%;      
+}
+
+img{
+    border-radius: 30%;
+    object-fit: cover ;
+}
+
+.scorecard{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    gap: 5rem;
+}
+
+#runs,#totalruns{
+    font-size: 5rem;
+}
+
+#restart{
+    background-color:rgb(225, 125, 26);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 20%;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
